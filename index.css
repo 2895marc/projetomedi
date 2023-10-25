@@ -1,0 +1,93 @@
+*{background-color: rgba(87, 165, 42, 0.459);
+    margin: 0%;
+padding: 0%;
+box-sizing: border-box;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+body{
+    background-color: rgba(255, 255, 255, 0.295);
+    height: 100;
+    text-align: justify;
+}
+ul{text-align: justify;}
+img{
+    width: 220px;
+    height: 200px;
+    border-radius: 55px;
+    
+}
+
+.interface{
+    max: width 128px;;
+    margin: 0% auto;
+    
+}
+.flex{display: flex;}
+estilo do cabeçalho
+header{
+    padding: 70px  10%;
+}
+header > .interface{
+    display: flex;
+    justify-content: space-between;
+}
+header a{
+    color: black (0, 0, 0, 0);
+    text-decoration: none;
+}
+
+header a:hover{
+    color: red;
+    transform: scale(2);
+    display: inline-block;
+    transition: .2s;
+}
+header nav ul{list-style-type: none;
+
+}
+header nav ul li{
+    display: inline-block;
+    padding: 0 40px;
+}
+header .contato button{
+    color: blue;
+    padding: 10px 40px;
+    font-size: 18px;
+    font-weight: 1000;
+    border-color:red;
+    border-radius: 30px;
+    cursor: pointer;
+
+}
+
+header .contato button: hover{
+    box-shadow: 1px 1px 8px;
+
+}
+
+/** topo do cabeçalho**/
+section.topo-do-site{
+    padding: 40px 4%;
+}
+section.topo-do-site.flex{
+    align-items: center;
+    justify-content: center;
+    gap: 190px;
+    
+}
+
+.txt-topo-site h1{
+    color: gold;
+    font-size: 34px;
+    line-height: 40px;
+}
+.txt-topo-site.h1 .txt-topo-site.h1{
+    color: red;
+}
+.txt-topo-site.txt-topo-site p{
+    color: white;
+    margin: 30px 0px;
+}
+
+
+    
